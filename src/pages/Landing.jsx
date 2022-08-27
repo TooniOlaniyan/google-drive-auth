@@ -1,12 +1,17 @@
 import React from 'react'
 import styled from 'styled-components'
 import {FaGoogleDrive} from 'react-icons/fa'
+import { gapi } from 'gapi-script'
 
 function Landing() {
+  const handleAuth = async () => {
+
+
+  }
   return (
     <Main>
       <p>Click here to access your Documents</p>
-      <button><FaGoogleDrive/>Sign In</button>
+      <button onClick={handleAuth}><FaGoogleDrive/>Sign In</button>
 
 
     </Main>
