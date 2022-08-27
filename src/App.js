@@ -12,6 +12,7 @@ function App() {
       <Router>
         <Routes>
           <Route path="/" element={<Landing/>}/>
+          <Route path="/main" element={<Home/>}/>
         </Routes>
       </Router>
     </div>

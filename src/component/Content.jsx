@@ -1,9 +1,14 @@
 import React from 'react'
+import styled from 'styled-components'
 
 function Content() {
   return (
-    <div>Content</div>
+    <Main>Content</Main>
   )
 }
 
+const Main = styled.div`
+  
+  flex: 5;
+`
 export default Content
