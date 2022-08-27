@@ -1,8 +1,11 @@
 import React from 'react'
 
 function SideBar() {
+    console.log(process.env)
   return (
-    <div>SideBar</div>
+    <div>
+        sidebar
+    </div>
   )
 }
 
