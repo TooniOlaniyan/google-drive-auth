@@ -43,6 +43,7 @@ const Main = styled.div`
     align-items: center;
     font-family: 'Aboreto', cursive;
     cursor: pointer;
+    background-color: white;
   }
 `
 
