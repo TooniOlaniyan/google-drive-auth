@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 import {FaGoogleDrive} from 'react-icons/fa'
-import { gapi } from 'gapi-script'
+import { gapi ,   } from 'gapi-script'
 import {useNavigate} from 'react-router-dom'
 
 function Landing() {
